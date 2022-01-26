@@ -2,8 +2,9 @@
   <v-app>
     <v-main>
       <Header/>
-      <Footer/>
+      <router-view></router-view>
     </v-main>
+    <Footer/>
   </v-app>
 </template>
 

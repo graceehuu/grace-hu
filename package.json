@@ -10,7 +10,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-compare-image": "^0.2.0",
     "vue-router": "^3.5.3",
+    "vue-typer": "^1.2.0",
     "vuetify": "^2.4.0"
   },
   "devDependencies": {
