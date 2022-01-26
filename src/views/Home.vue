@@ -1,8 +1,10 @@
 <template>
-  <v-container grid-list-xl class="mt-4 pt-4">
-    <v-row align="center">
-      <v-col align="center" justify="center">
-        <v-flex class="display-4 font-weight-bold hidden-sm-and-down" style="line-height: 0 !important;">grace hu</v-flex>
+  <v-container grid-list>
+    <v-row align="center" justify="center" class="mt-4 pt-4">
+      <v-col cols="3">
+      </v-col>
+      <v-col align="center">
+        <v-flex class="display-4 font-weight-bold hidden-sm-and-down mt-10" style="line-height: 0 !important;">grace hu</v-flex>
         <span class="display-3 font-weight-bold hidden-md-and-up"> grace hu</span>
         <VueCompareImage
           class="hidden-md-and-down"
@@ -25,7 +27,7 @@
           :sliderPositionPercentage="sliderPosition"
         />
       </v-col>
-      <v-col>
+      <v-col cols="3">
         <v-card color="transparent" flat class="font-weight-thin">
           <span class="title font-weight-thin">
             mit cs '22 <br>

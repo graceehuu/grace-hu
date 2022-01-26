@@ -21,8 +21,6 @@ export default new Router({
   {
     path: '/:catchAll(.*)',
     name: 'error',
-    // TODO
-    // component: () =>
-    //   import('./views/Error.vue')
+    component: () => import('./views/Error.vue')
   }]
 })

@@ -1,9 +1,9 @@
 <template>
   <v-footer>
     Developed with&nbsp;
-    <v-icon small color="brown">mdi-coffee-outline</v-icon>
-    &nbsp;and&nbsp;
-    <v-icon small color="green">fab fa-vuejs</v-icon>
+    <v-icon small color="brown">mdi-coffee</v-icon>
+    &nbsp;and&nbsp; 
+    <v-icon small color="green">mdi-vuetify</v-icon>
     <v-spacer></v-spacer>
     <div>&copy; {{ new Date().getFullYear() }}</div>
   </v-footer>

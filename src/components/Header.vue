@@ -2,7 +2,7 @@
   <div>
     <v-app-bar flat scroll-off-screen style="background-color: transparent !important;">
       <v-app-bar-title class="headline">
-        <v-btn class="headline font-weight-black" style="background-color: transparent !important;" text to="/">GH</v-btn>
+        <v-btn class="headline font-weight-black" text to="/">GH</v-btn>
       </v-app-bar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>

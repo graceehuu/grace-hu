@@ -1,8 +1,10 @@
 <template>
   <v-app>
     <v-main>
-      <Header/>
-      <router-view></router-view>
+      <v-container align-center>
+        <Header/>
+        <router-view></router-view>
+      </v-container>
     </v-main>
     <Footer/>
   </v-app>
@@ -26,4 +28,7 @@ export default {
 </script>
 
 <style>
+.v-btn:after {
+  background: none;
+}
 </style>
