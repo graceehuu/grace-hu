@@ -1,15 +1,32 @@
 <template>
   <v-container grid-list>
-    <v-row align="center" justify="center" class="mt-4 pt-4">
-      <v-col cols="3">
+    <v-row align="center" class="my-4 py-4">
+      <v-col>
+      <v-list-item three-line>
+        <v-list-item-content>
+          <h2 class="secondary--text" style="font-family: 'Unica One', cursive;">
+            HI <v-icon color="secondary">mdi-hand-wave</v-icon>, I'M 
+          </h2>
+          <v-list-item-title class="mb-4 pb-4">
+            <h1 class="primary--text">Grace Hu</h1>
+          </v-list-item-title>
+          <v-list-item-subtitle>
+            — MIT CS '22
+          </v-list-item-subtitle>
+        </v-list-item-content>
+        </v-list-item>
+        <v-card-actions>
+          <v-btn class="accent--text" rounded text to="/portfolio">
+            check out my art
+            <v-icon>mdi-chevron-right</v-icon>
+          </v-btn>
+        </v-card-actions>
       </v-col>
-      <v-col align="center">
-        <v-flex class="display-4 font-weight-bold hidden-sm-and-down mt-10" style="line-height: 0 !important;">grace hu</v-flex>
-        <span class="display-3 font-weight-bold hidden-md-and-up"> grace hu</span>
+      <v-col>
         <VueCompareImage
           class="hidden-md-and-down"
           hover
-          :style="{ maxWidth: '500px' }"
+          :style="{ width: '500px' }"
           :sliderLineWidth="sliderLine"
           :handleSize="hSize"
           :leftImage="leftImage"
@@ -19,21 +36,13 @@
         <VueCompareImage
           class="hidden-lg-and-up"
           hover
-          :style="{ maxWidth: '300px' }"
+          :style="{ width: '300px' }"
           :sliderLineWidth="sliderLine"
           :handleSize="hSize"
           :leftImage="leftImage"
           :rightImage="rightImage"
           :sliderPositionPercentage="sliderPosition"
         />
-      </v-col>
-      <v-col cols="3">
-        <v-card color="transparent" flat class="font-weight-thin">
-          <span class="title font-weight-thin">
-            mit cs '22 <br>
-            check out some of my <router-link flat to="/portfolio" class="font-weight-black" style="text-decoration:none">art</router-link>
-          </span>
-        </v-card>
       </v-col>
     </v-row>
   </v-container>
@@ -47,7 +56,7 @@ export default {
     title: 'Home'
   },
   components: {
-    VueCompareImage
+    VueCompareImage,
   },
   data () {
     return {
@@ -55,11 +64,20 @@ export default {
       rightImage: require('@/assets/me-procreate.png'),
       sliderLine: 0,
       hSize: 0,
-      sliderPosition: 0.5
+      sliderPosition: 0.5,
     }
   }
 }
 </script>
 
-<style>
+<style scoped>
+h1 {
+  font-family: 'Yeseva One', cursive !important;
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 2rem;
+  background-color: "primary";
+}
 </style>
