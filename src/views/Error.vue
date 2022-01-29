@@ -7,7 +7,7 @@
       <br>
       <v-btn class="primary--text" rounded text to="/">
         back home
-        <v-icon>mdi-home</v-icon><br>
+        <v-icon>mdi-home</v-icon>
         <v-icon>mdi-chevron-left</v-icon>
       </v-btn>
     </v-col>

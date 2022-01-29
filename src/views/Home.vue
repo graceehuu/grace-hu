@@ -4,14 +4,15 @@
       <v-col>
       <v-list-item three-line>
         <v-list-item-content>
-          <h2 class="secondary--text" style="font-family: 'Unica One', cursive;">
+          <h2 class="secondary--text" style="font-family: 'Unica One', cursive; font-size:2rem">
             HI <v-icon color="secondary">mdi-hand-wave</v-icon>, I'M 
           </h2>
           <v-list-item-title class="mb-4 pb-4">
             <h1 class="primary--text">Grace Hu</h1>
           </v-list-item-title>
-          <v-list-item-subtitle>
-            — MIT CS '22
+          <v-list-item-subtitle style="font-size:1.5rem">
+            — mit cs '22
+            , pm + swe, & artist
           </v-list-item-subtitle>
         </v-list-item-content>
         </v-list-item>
@@ -26,6 +27,8 @@
         <VueCompareImage
           class="hidden-md-and-down"
           hover
+          v-bind="attrs"
+          v-on="on"
           :style="{ width: '500px' }"
           :sliderLineWidth="sliderLine"
           :handleSize="hSize"
