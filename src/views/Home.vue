@@ -12,6 +12,7 @@
           </v-list-item-title>
           <v-list-item-subtitle style="font-size:1.5rem">
             — mit cs '22
+            <!-- | mit cs '22 -->
             , pm + swe, & artist
           </v-list-item-subtitle>
         </v-list-item-content>

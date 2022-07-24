@@ -20,7 +20,8 @@
             <v-col>
               <v-icon>mdi-map-marker</v-icon>
               <h2 class="secondary--text">location</h2>
-              <span style="text-decoration: line-through">ATL</span><span> Boston</span>
+              <span style="text-decoration: line-through"> Boston</span>
+              <span> SF </span>
             </v-col>
             <v-col>
               <v-icon size="100" class="secondary--text">mdi-fruit-watermelon</v-icon>
